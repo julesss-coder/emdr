@@ -1,5 +1,29 @@
 /* Sider */
+.test-button {
+    transition: background-color 3s, color 2s, margin-bottom 3s;
+    padding: 8px;
+    margin-bottom: 8px;
+}
 
+#digit {
+    border: 1px solid black;
+    width: 25px;
+    overflow: hidden;
+}
+
+#stripe {
+    font-family: monospace;
+    font-size: 40px;
+    display: inline-block;
+}
+
+#stripe.animate {
+    transform: translate(-90%);
+    transition: transform 9s steps(9, end);
+    /* transition-property: transform;
+    transition-duration: 9s;
+    transition-timing-function: cubic-bezier(.5, -1, .5, 2); */
+}
 
 /* Animation screen */
 .animation-screen {
