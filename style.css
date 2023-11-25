@@ -42,6 +42,10 @@
     height: 100px;
     border-radius: 50%;
     background-color: lightblue;
+}
+
+.emdr-ball.animate-ball {
+    
     animation: 3s linear 1s infinite alternate emdr-horizontal;
 }
 

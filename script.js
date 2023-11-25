@@ -19,3 +19,10 @@ const stripe = document.querySelector("#stripe");
 stripe.addEventListener("click", function() {
     this.classList.add("animate");
 });
+
+const emdrBall = document.querySelector(".emdr-ball");
+
+const animationScreen = document.querySelector(".animation-screen");
+animationScreen.addEventListener("click", function(e) {
+    emdrBall.classList.toggle("animate-ball");
+});
